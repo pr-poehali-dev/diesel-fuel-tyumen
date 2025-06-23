@@ -1,0 +1,121 @@
+ {
+  const advantages = [
+    {
+      icon: "Users",
+      title: "Розничные продажи",
+      description: "Удобная заправка для.tsx">
+import частных автовладельцев ProductCard from './ProductCard';
+
+const Products = () => {
+  const products = [
+    {
+      title: "ДТ",
+      features-Л-К5",
+      description: ["Качественное топлив: "Летнее дизо", "Доступельное топливо класные цены", "Быстса К5",
+      price: "52рое обслуживание"]
+    ₽",
+      features:},
+    {
+      icon: [
+        "Стандарт "Building2",
+      title: "Работ Евро-5",
+        "а с юр.лицамиТемпература застывания до",
+      description: "Ком -10°C",
+        "Высплексные решения для бизнеса",
+      features: ["Оокое цетановое число",птовые поставки
+        "Низкое содержание сер", "Договоры на обы"
+      ]
+    },служивание", "От
+    {
+      title: "ДТ-З-К5",
+      description:срочка платежа"]
+    }, "Зимнее диз
+    {
+      icon: "ельное топливо класса КTruck",
+      title: "До5",
+      price: "55₽",ставка по региону",
+      description
+      isPopular: true: "Быстрая до,
+      features:ставка по Тюмени и области [
+        "Стандарт Евро-5",",
+      features: ["Собственный
+        "Температура застывания до -32°C", автопарк", "Точное
+        "Улучшенные время доставки", "Конт низкотемпературные свойства",
+        роль качества"]
+    }"Антиг
+  ];
+
+  return (
+    <section className="py-16 bg-grayелевые-50">
+      <div className присадки"
+      ]
+    ="container mx-auto px-6">
+        },
+    {
+      title:<div className="text-center mb-12 "ДТ-А-К5",">
+          <h2 className
+      description: "Ар="text-3xl font-bolктическое дизельное топливо классаd text-slate-800 mb-4 К5",
+      price: " font-montserrat">
+            58₽",
+      features:Почему выбир [
+        "Стандарают нас
+          </h2>
+          <p className="textт Евро-5",
+        "Температ-gray-600 max-wура застывания до -52-2xl mx-auto">°C",
+        "Специальные ар
+            Многолетний опктические присадки",
+        "Гыт работыарантированный запу на рынке нефтск при -40°C"
+      ]епродуктов
+    }
+  ];
+
+  return ( Тюменской области
+          </p>
+    <section className="py-16
+        </div>
+         bg-gray-50">
+      <div className="container mx-
+        <div className="grid mauto px-4">
+        d:grid-cols-3 gap<div className="text-center mb-12-8">
+          {advantages.map((advantage,">
+          <h2 className="font-mont index) => (
+            <Card key={index} className="border-serrat font-bold text-4xl mb-4">Наша продукция</h2>
+          <p className="text-xl text-gray-600 max-w-0 shadow-lg hover:shadow-2xl mx-auto">
+            Широкийxl transition-all duration-300 hover:-translate-y-1">
+              <CardHeader className="text ассортимент кач-center pb-4">
+                ественного дизельного топлива для люб<div className="w-16 h-16ых погодных условий
+          </p bg-blue-500 rounded-full>
+        </div>
+
+         flex items-center justify-center mx<div className="grid grid-cols-1 m-auto mb-4">
+                  <Icon name={advantage.icon} className="text-white" sized:grid-cols-2 lg:gri={24} />
+                </divd-cols-3 gap-8 >
+                <CardTitle className="max-w-6xl mx-autotext-xl font-semibol">
+          {products.map((product, index) => (
+            <ProductCard keyd text-slate-800 font-montser={index} {...product} />
+          ))}rat">
+                  {advantage.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className
+        </div>
+
+        <div className="text="text-center">
+                <p-center mt-12">
+          <p className="text-gray-600  className="text-gray-600 mb-4">mb-4">
+                  {Минимальный заказ от 500advantage.description}
+                </p>
+                 литров</p><ul className="space-y-2">
+          <button className="bg-
+                  {advantage.features.map((feature,blue-600 text-white px idx) => (
+                    <li-8 py-3 rounded-lg font-bold hover key={idx} className="flex items:bg-blue-700 transition-center justify-center text--colors">
+            Посsm text-gray-700мотреть полный каталог
+          ">
+                      <Icon name="</button>
+        </div>
+      </divCheck" className="text>
+    </section>
+  -green-500 mr-2" size);
+};
+
+export default Products;
